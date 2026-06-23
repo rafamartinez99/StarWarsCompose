@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">StarWarsApp</string>
+    <string name="starwars_compose">STARWARS COMPOSE</string>
+</resources>
