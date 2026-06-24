@@ -23,7 +23,7 @@ object AppModule {
         val contentType = "application/json".toMediaType()
 
         return Retrofit.Builder()
-            .baseUrl("https://swapi.dev/api/")
+            .baseUrl("https://swapi.py4e.com/api/")
             .addConverterFactory(json.asConverterFactory(contentType))
             .build()
     }
